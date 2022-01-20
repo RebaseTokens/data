@@ -864,3 +864,13 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642644818317	geckodriver	INFO	Listening on 127.0.0.1:45993
+1642644818822	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46193" "-no-remote" "-profile" "/tmp/rust_mozprofileyVRoqo"
+*** You are running in headless mode.
+1642644819158	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyVRoqo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46193/devtools/browser/57e31612-e8c9-4beb-9630-69c03613419d
+1642644820318	Marionette	INFO	Listening on port 43843
+1642644820351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644851230	Marionette	INFO	Stopped listening on port 43843
