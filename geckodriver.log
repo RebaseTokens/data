@@ -1001,3 +1001,32 @@ DevTools listening on ws://localhost:60853/devtools/browser/fd81bf4b-5c1a-43b2-a
 1642645278236	Marionette	INFO	Listening on port 44265
 1642645278291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642645280753	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1642645345580	geckodriver	INFO	Listening on 127.0.0.1:56261
+1642645346084	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53293" "-no-remote" "-profile" "/tmp/rust_mozprofileoyh9cD"
+*** You are running in headless mode.
+1642645346369	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoyh9cD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53293/devtools/browser/7d847d91-97aa-4496-adcc-9e2821b413c9
+1642645347491	Marionette	INFO	Listening on port 44599
+1642645347621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645378534	Marionette	INFO	Stopped listening on port 44599
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileoyh9cD/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
