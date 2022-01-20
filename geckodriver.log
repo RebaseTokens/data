@@ -1096,3 +1096,43 @@ DevTools listening on ws://localhost:37459/devtools/browser/584ec318-cda5-405c-9
 1642645545793	Marionette	INFO	Listening on port 43339
 1642645545826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642645577673	Marionette	INFO	Stopped listening on port 43339
+1642645584345	geckodriver	INFO	Listening on 127.0.0.1:39313
+1642645584348	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40301" "-no-remote" "-profile" "/tmp/rust_mozprofileLEA3US"
+*** You are running in headless mode.
+1642645584627	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLEA3US/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40301/devtools/browser/becb891a-0404-4105-9dbf-42b99ca016bc
+1642645585796	Marionette	INFO	Listening on port 45429
+1642645585865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645616694	Marionette	INFO	Stopped listening on port 45429
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642645617159	geckodriver	INFO	Listening on 127.0.0.1:45099
+1642645617662	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49397" "-no-remote" "-profile" "/tmp/rust_mozprofileXQYmIY"
+1642645618163	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXQYmIY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49397/devtools/browser/bc66f8d7-635e-4ca5-8c29-8795cb74b2fe
+1642645620518	Marionette	INFO	Listening on port 46627
+1642645620581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645651674	Marionette	INFO	Stopped listening on port 46627
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileXQYmIY/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
