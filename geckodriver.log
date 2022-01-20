@@ -96,3 +96,28 @@ DevTools listening on ws://localhost:53479/devtools/browser/7f3d10c0-7740-4623-b
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenyx8KB/search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:54773/devtools/browser/203a4847-a91e-40e4-89ca-b977c77a6fb5
 1642643375740	Marionette	INFO	Listening on port 35389
+1642643375849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643378699	geckodriver	INFO	Listening on 127.0.0.1:60643
+1642643379203	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51177" "-no-remote" "-profile" "/tmp/rust_mozprofilebmTEE2"
+*** You are running in headless mode.
+1642643379516	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebmTEE2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51177/devtools/browser/6d149d0f-3e0a-4406-90a4-64f081f42c05
+1642643380990	Marionette	INFO	Listening on port 41003
+1642643381021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643406707	Marionette	INFO	Stopped listening on port 35389
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642643407171	geckodriver	INFO	Listening on 127.0.0.1:43433
+1642643407674	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "33295" "-no-remote" "-profile" "/tmp/rust_mozprofiletd6alE"
+1642643408214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletd6alE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33295/devtools/browser/9310a7e6-48d6-42bd-95bf-209cfa6922d1
+1642643410611	Marionette	INFO	Listening on port 41489
+1642643410695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643412176	Marionette	INFO	Stopped listening on port 41003
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
