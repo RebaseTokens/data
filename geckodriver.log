@@ -552,3 +552,41 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642643963435	geckodriver	INFO	Listening on 127.0.0.1:36781
+1642643963938	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40671" "-no-remote" "-profile" "/tmp/rust_mozprofilexj72Pp"
+*** You are running in headless mode.
+1642643964211	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexj72Pp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40671/devtools/browser/9b9380d4-8ee3-47bc-adc9-0c67cb993d8b
+1642643965291	Marionette	INFO	Listening on port 45319
+1642643965356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642643978642	geckodriver	INFO	Listening on 127.0.0.1:36471
+1642643978645	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47323" "-no-remote" "-profile" "/tmp/rust_mozprofilevXF0gi"
+*** You are running in headless mode.
+1642643978934	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevXF0gi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47323/devtools/browser/bc027eca-4b16-48b4-b84e-7d4fb1ada84e
+1642643979981	Marionette	INFO	Listening on port 40789
+1642643980063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642643998271	geckodriver	INFO	Listening on 127.0.0.1:51975
+1642643998274	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52847" "-no-remote" "-profile" "/tmp/rust_mozprofilekNAlo3"
+*** You are running in headless mode.
+1642643998546	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekNAlo3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52847/devtools/browser/b21b2651-451e-4f55-bb67-72b999e475fe
+1642643999577	Marionette	INFO	Listening on port 40075
+1642643999692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642644020169	Marionette	INFO	Stopped listening on port 40789
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642644020639	Marionette	INFO	Stopped listening on port 40027
