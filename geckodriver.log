@@ -17,3 +17,11 @@ DevTools listening on ws://localhost:36331/devtools/browser/5efefa8a-9d70-430d-8
 1642642738839	Marionette	INFO	Listening on port 37449
 1642642738880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642642766530	Marionette	INFO	Stopped listening on port 36067
+1642642770656	Marionette	INFO	Stopped listening on port 37449
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642642773184	geckodriver	INFO	Listening on 127.0.0.1:45635
+1642642773688	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37779" "-no-remote" "-profile" "/tmp/rust_mozprofiled7Ria2"
+*** You are running in headless mode.
+1642642773975	Marionette	INFO	Marionette enabled
