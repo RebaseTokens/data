@@ -371,3 +371,42 @@ DevTools listening on ws://localhost:37353/devtools/browser/4126056e-0516-4ff5-b
 1642643799686	Marionette	INFO	Stopped listening on port 45577
 [Child 166294, MediaDecoderStateMachine #1] WARNING: 7f0161ed4970 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
 [Child 166294, MediaDecoderStateMachine #1] WARNING: Decoder=7f015f759200 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643806609	geckodriver	INFO	Listening on 127.0.0.1:49735
+1642643807113	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42193" "-no-remote" "-profile" "/tmp/rust_mozprofilea96gvo"
+*** You are running in headless mode.
+1642643807394	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea96gvo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42193/devtools/browser/0c076909-4321-4ae8-b9d8-9306a8ce91bd
+1642643808748	Marionette	INFO	Listening on port 35783
+1642643808972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643810202	Marionette	INFO	Stopped listening on port 45573
+1642643810787	geckodriver	INFO	Listening on 127.0.0.1:59567
+1642643811290	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34271" "-no-remote" "-profile" "/tmp/rust_mozprofileciQvCN"
+1642643811815	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileciQvCN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34271/devtools/browser/c673f02b-657b-47f9-9066-0bb9b0c20e91
+1642643814308	Marionette	INFO	Listening on port 40487
+1642643814416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 167078, MediaDecoderStateMachine #1] WARNING: 7f0d26b2d7a0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 167078, MediaDecoderStateMachine #1] WARNING: Decoder=7f0d27104f00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643839874	Marionette	INFO	Stopped listening on port 35783
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilea96gvo/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
