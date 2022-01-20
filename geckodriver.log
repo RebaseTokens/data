@@ -623,3 +623,36 @@ DevTools listening on ws://localhost:56665/devtools/browser/e8cab4a0-5f23-449e-9
 1642644082264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642644138121	Marionette	INFO	Stopped listening on port 41055
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile3qP6JO/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642644138590	Marionette	INFO	Stopped listening on port 34939
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642644152214	geckodriver	INFO	Listening on 127.0.0.1:42523
+1642644152718	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45667" "-no-remote" "-profile" "/tmp/rust_mozprofileeB3Cr0"
+*** You are running in headless mode.
+1642644153026	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeB3Cr0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45667/devtools/browser/9c019fa5-6ffb-4e6a-bc60-31f5996f65fb
+1642644154225	Marionette	INFO	Listening on port 44823
+1642644154345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
