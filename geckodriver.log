@@ -105,3 +105,32 @@ DevTools listening on ws://localhost:53639/devtools/browser/0840f7cf-3076-44c8-9
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642642897490	geckodriver	INFO	Listening on 127.0.0.1:53077
+1642642897710	geckodriver	INFO	Listening on 127.0.0.1:56727
+1642642897993	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43955" "-no-remote" "-profile" "/tmp/rust_mozprofileZv78jC"
+*** You are running in headless mode.
+1642642898214	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43765" "-no-remote" "-profile" "/tmp/rust_mozprofileNOa8DR"
+*** You are running in headless mode.
+1642642898279	Marionette	INFO	Marionette enabled
+1642642898536	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZv78jC/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNOa8DR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43955/devtools/browser/7c04ed20-b738-4514-b9c8-54a9c8d13259
+1642642899888	Marionette	INFO	Listening on port 39607
+1642642899938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:43765/devtools/browser/7198f011-6606-4ec4-8e93-2ca38adaad19
+1642642900183	Marionette	INFO	Listening on port 33075
+1642642900238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642931182	Marionette	INFO	Stopped listening on port 39607
+1642642932081	Marionette	INFO	Stopped listening on port 33075
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642642932545	geckodriver	INFO	Listening on 127.0.0.1:44719
+1642642933048	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "57515" "-no-remote" "-profile" "/tmp/rust_mozprofileUyF9bT"
+1642642933549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUyF9bT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57515/devtools/browser/fcca3654-16c3-4d26-a067-62f3c79fcde7
+1642642935012	Marionette	INFO	Listening on port 44485
