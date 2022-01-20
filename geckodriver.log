@@ -1221,3 +1221,27 @@ DevTools listening on ws://localhost:43753/devtools/browser/2e1d5748-9c0d-4e0e-a
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642645973273	geckodriver	INFO	Listening on 127.0.0.1:39469
+1642645973776	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43567" "-no-remote" "-profile" "/tmp/rust_mozprofileWfjsF1"
+*** You are running in headless mode.
+1642645974091	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWfjsF1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43567/devtools/browser/076891e4-54ae-4dc9-ba15-2211ff753dd4
+1642645975729	Marionette	INFO	Listening on port 35759
+1642645975797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 193396, MediaDecoderStateMachine #1] WARNING: 7fa2d67b53e0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 193396, MediaDecoderStateMachine #1] WARNING: Decoder=7fa2d1e44600 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642646007149	Marionette	INFO	Stopped listening on port 35759
+1642646007620	geckodriver	INFO	Listening on 127.0.0.1:44679
+1642646007624	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "43973" "-no-remote" "-profile" "/tmp/rust_mozprofileuGZrGh"
+1642646008128	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuGZrGh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43973/devtools/browser/4fde0b9d-72c4-45c2-87e3-6ed6c2b9f9c6
+1642646010414	Marionette	INFO	Listening on port 34253
+1642646010444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 193923, MediaDecoderStateMachine #1] WARNING: 7f6ad32cf2e0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 193923, MediaDecoderStateMachine #1] WARNING: Decoder=7f6ad1f53d00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642646041767	Marionette	INFO	Stopped listening on port 34253
