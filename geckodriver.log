@@ -423,3 +423,39 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:56397/devtools/browser/e265c0a6-8665-4960-9d0d-9857fdda8296
 1642643848395	Marionette	INFO	Listening on port 43085
 1642643848447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643853826	geckodriver	INFO	Listening on 127.0.0.1:45949
+1642643854329	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46977" "-no-remote" "-profile" "/tmp/rust_mozprofilem3I6m1"
+*** You are running in headless mode.
+1642643854623	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem3I6m1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46977/devtools/browser/88991af5-6a8e-4e2a-b216-714e14ec3811
+1642643855785	Marionette	INFO	Listening on port 42341
+1642643855847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 167877, MediaDecoderStateMachine #1] WARNING: 7f01dd0cb1f0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 167877, MediaDecoderStateMachine #1] WARNING: Decoder=7f01dcf61700 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+JavaScript error: https://templar.finance/static/js/2.b6fd4c7b.chunk.js, line 2: Error: Request aborted
+JavaScript error: https://templar.finance/static/js/2.b6fd4c7b.chunk.js, line 2: Error: Request aborted
+[Child 167877, MediaDecoderStateMachine #1] WARNING: 7f01dd0ce2f0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 167877, MediaDecoderStateMachine #1] WARNING: Decoder=7f01de797f00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643879430	Marionette	INFO	Stopped listening on port 43085
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilekcmZfg/protections.sqlite
+[Child 167877, MediaDecoderStateMachine #1] WARNING: 7f01caa9d100 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 167877, MediaDecoderStateMachine #1] WARNING: Decoder=7f01de797f00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643887451	Marionette	INFO	Stopped listening on port 42341
+1642643887926	geckodriver	INFO	Listening on 127.0.0.1:40549
