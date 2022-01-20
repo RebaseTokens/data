@@ -1245,3 +1245,34 @@ DevTools listening on ws://localhost:43973/devtools/browser/4fde0b9d-72c4-45c2-8
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1642646041767	Marionette	INFO	Stopped listening on port 34253
+1642646048762	geckodriver	INFO	Listening on 127.0.0.1:33023
+1642646048764	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39043" "-no-remote" "-profile" "/tmp/rust_mozprofile58QmmX"
+*** You are running in headless mode.
+1642646049037	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile58QmmX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39043/devtools/browser/21a64964-d623-428b-b931-bced3729645f
+1642646050109	Marionette	INFO	Listening on port 41279
+1642646050186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 194457, MediaDecoderStateMachine #1] WARNING: 7fae305756a0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194457, MediaDecoderStateMachine #1] WARNING: Decoder=7fae2fea4a00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+[Child 194457, MediaDecoderStateMachine #1] WARNING: 7fae306fea60 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194457, MediaDecoderStateMachine #1] WARNING: Decoder=7fae2f5a2300 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+[Child 194457, MediaDecoderStateMachine #1] WARNING: 7fae1fda67a0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194457, MediaDecoderStateMachine #1] WARNING: Decoder=7fae2f5a2300 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642646081692	Marionette	INFO	Stopped listening on port 41279
+1642646082166	geckodriver	INFO	Listening on 127.0.0.1:55767
+1642646082670	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "43965" "-no-remote" "-profile" "/tmp/rust_mozprofileeEXuaC"
+1642646083187	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeEXuaC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43965/devtools/browser/e7393fb4-687f-4015-bf1e-03ef4416a7e5
+1642646085562	Marionette	INFO	Listening on port 39299
+1642646085595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://templar.finance/static/js/2.b6fd4c7b.chunk.js, line 2: Error: Request aborted
+[Child 194973, MediaDecoderStateMachine #1] WARNING: 7fae47d6ad30 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194973, MediaDecoderStateMachine #1] WARNING: Decoder=7fae41e74700 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+[Child 194973, MediaDecoderStateMachine #1] WARNING: 7fae456b6020 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194973, MediaDecoderStateMachine #1] WARNING: Decoder=7fae4567bf00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+[Child 194973, MediaDecoderStateMachine #1] WARNING: 7fae43f571f0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 194973, MediaDecoderStateMachine #1] WARNING: Decoder=7fae4567bf00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642646117817	Marionette	INFO	Stopped listening on port 39299
