@@ -705,3 +705,24 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:46271/devtools/browser/f6b00554-df98-4f8b-89bf-3e951fe303c6
 1642644260941	Marionette	INFO	Listening on port 40739
 1642644260990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644292011	Marionette	INFO	Stopped listening on port 40739
+1642644294486	geckodriver	INFO	Listening on 127.0.0.1:42757
+1642644294989	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "35033" "-no-remote" "-profile" "/tmp/rust_mozprofileLUxQsb"
+1642644295551	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLUxQsb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35033/devtools/browser/30b21918-e8a4-4a23-86f0-444f2f12caee
+1642644298147	Marionette	INFO	Listening on port 46677
+1642644298214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644331430	geckodriver	INFO	Listening on 127.0.0.1:47163
+1642644331433	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41141" "-no-remote" "-profile" "/tmp/rust_mozprofilecdBJZm"
+*** You are running in headless mode.
+1642644331719	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecdBJZm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41141/devtools/browser/7f3afe10-f67c-47d0-89b2-05b4c0c31357
+1642644332839	Marionette	INFO	Listening on port 37585
+1642644332957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644365414	Marionette	INFO	Stopped listening on port 37585
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
