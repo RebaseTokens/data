@@ -874,3 +874,42 @@ DevTools listening on ws://localhost:46193/devtools/browser/57e31612-e8c9-4beb-9
 1642644820318	Marionette	INFO	Listening on port 43843
 1642644820351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642644851230	Marionette	INFO	Stopped listening on port 43843
+1642644869955	geckodriver	INFO	Listening on 127.0.0.1:45035
+1642644870459	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49037" "-no-remote" "-profile" "/tmp/rust_mozprofileSoDlKw"
+*** You are running in headless mode.
+1642644870746	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSoDlKw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49037/devtools/browser/7f650067-87cd-4f7f-ac4f-f99d1850f8cb
+1642644871862	Marionette	INFO	Listening on port 39739
+1642644871977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://app.midasdao.org/#/dashboard, line 1: ReferenceError: $ is not defined
+JavaScript error: https://app.midasdao.org/static/js/main.50332d2d.chunk.js, line 1: TypeError: window.customDashboardFn is not a function
+1642644960095	geckodriver	INFO	Listening on 127.0.0.1:34223
+1642644960097	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48337" "-no-remote" "-profile" "/tmp/rust_mozprofileusXRHB"
+*** You are running in headless mode.
+1642644960382	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileusXRHB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48337/devtools/browser/7c6fdbf4-725b-4aaa-b8b0-5234a54ad0fc
+1642644961505	Marionette	INFO	Listening on port 46317
+1642644961616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644992507	Marionette	INFO	Stopped listening on port 46317
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileusXRHB/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
