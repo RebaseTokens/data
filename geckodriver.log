@@ -82,3 +82,26 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642642857052	geckodriver	INFO	Listening on 127.0.0.1:51501
+1642642857099	geckodriver	INFO	Listening on 127.0.0.1:42705
+1642642857556	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53639" "-no-remote" "-profile" "/tmp/rust_mozprofileEtXSgA"
+*** You are running in headless mode.
+1642642857603	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35007" "-no-remote" "-profile" "/tmp/rust_mozprofileRnOEWF"
+*** You are running in headless mode.
+1642642857857	Marionette	INFO	Marionette enabled
+1642642857905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEtXSgA/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRnOEWF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35007/devtools/browser/fefe4a77-d844-416d-ac14-98abb0dff472
+1642642859440	Marionette	INFO	Listening on port 39589
+DevTools listening on ws://localhost:53639/devtools/browser/0840f7cf-3076-44c8-985a-5f6ac0ea7374
+1642642859471	Marionette	INFO	Listening on port 36165
+1642642859528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642859578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642890406	Marionette	INFO	Stopped listening on port 39589
+1642642891381	Marionette	INFO	Stopped listening on port 36165
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
