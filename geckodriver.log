@@ -913,3 +913,29 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642644999292	geckodriver	INFO	Listening on 127.0.0.1:51929
+1642644999795	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49495" "-no-remote" "-profile" "/tmp/rust_mozprofilevrBc2u"
+*** You are running in headless mode.
+1642645000074	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevrBc2u/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49495/devtools/browser/c2990e55-f353-43c2-b4e6-98bb688842c1
+1642645001613	Marionette	INFO	Listening on port 39853
+1642645001714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645032566	Marionette	INFO	Stopped listening on port 39853
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642645033033	geckodriver	INFO	Listening on 127.0.0.1:41029
+1642645033536	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33813" "-no-remote" "-profile" "/tmp/rust_mozprofileDLyYtT"
+*** You are running in headless mode.
+1642645033881	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDLyYtT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33813/devtools/browser/2092508a-3ecb-4e09-bc03-ddbc53ffba37
+1642645035203	Marionette	INFO	Listening on port 37013
+1642645035256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645065905	Marionette	INFO	Stopped listening on port 37013
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
