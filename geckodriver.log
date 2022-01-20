@@ -756,3 +756,26 @@ DevTools listening on ws://localhost:45109/devtools/browser/b548508d-cbb2-43d5-9
 1642644460837	Marionette	INFO	Listening on port 40969
 1642644460875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642644493066	Marionette	INFO	Stopped listening on port 40969
+1642644499889	geckodriver	INFO	Listening on 127.0.0.1:57965
+1642644500392	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43235" "-no-remote" "-profile" "/tmp/rust_mozprofileh6Bje6"
+*** You are running in headless mode.
+1642644500685	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh6Bje6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43235/devtools/browser/5e9e90a9-a1a7-4482-bd6a-cded8938e897
+1642644502202	Marionette	INFO	Listening on port 38327
+1642644502319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644533284	Marionette	INFO	Stopped listening on port 38327
+1642644533757	geckodriver	INFO	Listening on 127.0.0.1:33069
+1642644534260	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54879" "-no-remote" "-profile" "/tmp/rust_mozprofileLQPfrR"
+*** You are running in headless mode.
+1642644534546	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLQPfrR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54879/devtools/browser/a1e392ee-4398-4000-921e-18626b3d6fbb
+1642644535646	Marionette	INFO	Listening on port 34097
+1642644535682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644566371	Marionette	INFO	Stopped listening on port 34097
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
