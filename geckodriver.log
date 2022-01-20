@@ -173,3 +173,20 @@ DevTools listening on ws://localhost:33593/devtools/browser/cc60073a-1221-4a7f-a
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642642326169	geckodriver	INFO	Listening on 127.0.0.1:56083
+1642642326672	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57615" "-no-remote" "-profile" "/tmp/rust_mozprofileHWQ1de"
+*** You are running in headless mode.
+1642642326966	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHWQ1de/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57615/devtools/browser/68a44b95-3dac-49a5-893d-506f6bca8e84
+1642642328119	Marionette	INFO	Listening on port 37249
+1642642328190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642329024	Marionette	INFO	Stopped listening on port 41261
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile0JFWyQ/protections.sqlite
