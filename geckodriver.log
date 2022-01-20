@@ -814,3 +814,29 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642644686372	geckodriver	INFO	Listening on 127.0.0.1:38655
+1642644686876	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60597" "-no-remote" "-profile" "/tmp/rust_mozprofile920A9w"
+*** You are running in headless mode.
+1642644687150	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile920A9w/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60597/devtools/browser/e1f05c2d-1181-4e50-a8dc-7b962763c34a
+1642644688280	Marionette	INFO	Listening on port 43673
+1642644688401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644721496	geckodriver	INFO	Listening on 127.0.0.1:46833
+1642644721499	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45531" "-no-remote" "-profile" "/tmp/rust_mozprofileGHkkDs"
+*** You are running in headless mode.
+1642644721793	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGHkkDs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45531/devtools/browser/6315760c-5618-40ac-92e7-a7a0d417bb05
+1642644722903	Marionette	INFO	Listening on port 45909
+1642644723017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644754960	Marionette	INFO	Stopped listening on port 45909
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642644755437	Marionette	INFO	Stopped listening on port 43673
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
