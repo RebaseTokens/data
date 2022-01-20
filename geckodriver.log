@@ -315,3 +315,13 @@ console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642642519420	geckodriver	INFO	Listening on 127.0.0.1:52047
+1642642519924	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38123" "-no-remote" "-profile" "/tmp/rust_mozprofileGG4SPZ"
+*** You are running in headless mode.
+1642642520218	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGG4SPZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38123/devtools/browser/7f2b92eb-2be1-4067-9ad9-959825446562
+1642642521873	Marionette	INFO	Listening on port 45361
+1642642521949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642527231	Marionette	INFO	Stopped listening on port 41565
