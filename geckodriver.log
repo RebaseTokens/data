@@ -600,3 +600,26 @@ DevTools listening on ws://localhost:36085/devtools/browser/cdef64ba-28ce-4f96-8
 1642644034247	Marionette	INFO	Listening on port 43651
 1642644034325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642644040331	Marionette	INFO	Stopped listening on port 40075
+1642644047481	geckodriver	INFO	Listening on 127.0.0.1:42851
+1642644047984	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58187" "-no-remote" "-profile" "/tmp/rust_mozprofileSmQJ6c"
+*** You are running in headless mode.
+1642644048258	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSmQJ6c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58187/devtools/browser/56bcc154-5283-4ecc-88c4-67e3e75fbdbb
+1642644049366	Marionette	INFO	Listening on port 34939
+1642644049406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1642644080638	Marionette	INFO	Stopped listening on port 43651
+1642644080843	geckodriver	INFO	Listening on 127.0.0.1:35227
+1642644080846	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56665" "-no-remote" "-profile" "/tmp/rust_mozprofile3qP6JO"
+*** You are running in headless mode.
+1642644081136	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3qP6JO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56665/devtools/browser/e8cab4a0-5f23-449e-9b56-110f42bd6228
+1642644082215	Marionette	INFO	Listening on port 41055
+1642644082264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
