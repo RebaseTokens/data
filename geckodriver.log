@@ -135,3 +135,28 @@ DevTools listening on ws://localhost:39015/devtools/browser/4f587576-9b79-48d1-8
 1642642241469	Marionette	INFO	Listening on port 42559
 1642642241508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642642248048	Marionette	INFO	Stopped listening on port 41645
+1642642254811	geckodriver	INFO	Listening on 127.0.0.1:47829
+1642642255314	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56289" "-no-remote" "-profile" "/tmp/rust_mozprofilez9dnes"
+*** You are running in headless mode.
+1642642255714	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez9dnes/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56289/devtools/browser/5aff2155-6d16-46ee-8729-330dba9cb891
+1642642257325	Marionette	INFO	Listening on port 39941
+1642642257435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642285158	geckodriver	INFO	Listening on 127.0.0.1:39021
+1642642285662	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41159" "-no-remote" "-profile" "/tmp/rust_mozprofileyHOcEH"
+*** You are running in headless mode.
+1642642285934	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyHOcEH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41159/devtools/browser/ae248e21-9cb9-4e48-adb8-6b5b6f958949
+1642642287094	Marionette	INFO	Listening on port 42527
+1642642287190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642289172	Marionette	INFO	Stopped listening on port 39941
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
