@@ -190,3 +190,33 @@ DevTools listening on ws://localhost:38471/devtools/browser/80b8c588-6111-4934-8
 JavaScript error: https://app.metareserve.finance/#/dashboard, line 2: ChunkLoadError: Loading chunk 2 failed.
 (error: https://app.metareserve.finance/static/js/en-messages.afc061bf.chunk.js)
 1642643482756	Marionette	INFO	Stopped listening on port 46667
+1642643490249	geckodriver	INFO	Listening on 127.0.0.1:33171
+1642643490753	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40489" "-no-remote" "-profile" "/tmp/rust_mozprofileFbJsao"
+*** You are running in headless mode.
+1642643491070	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFbJsao/search.json.mozlz4", (void 0)))
+1642643492284	Marionette	INFO	Stopped listening on port 37981
+DevTools listening on ws://localhost:40489/devtools/browser/8f63a4b6-375f-4b8b-aa11-d7fd6255d865
+1642643492726	Marionette	INFO	Listening on port 41053
+1642643492782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643492867	geckodriver	INFO	Listening on 127.0.0.1:42749
+1642643493371	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53155" "-no-remote" "-profile" "/tmp/rust_mozprofilexF8etR"
+*** You are running in headless mode.
+1642643493706	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexF8etR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53155/devtools/browser/27c9d41e-59db-4423-9134-4d51b7eb3c3b
+1642643495505	Marionette	INFO	Listening on port 40789
+1642643495595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://app.metareserve.finance/#/stake, line 2: ChunkLoadError: Loading chunk 2 failed.
+(error: https://app.metareserve.finance/static/js/en-messages.afc061bf.chunk.js)
+1642643524695	Marionette	INFO	Stopped listening on port 41053
+1642643525269	geckodriver	INFO	Listening on 127.0.0.1:40309
+1642643525775	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44567" "-no-remote" "-profile" "/tmp/rust_mozprofileS7wbQx"
+1642643526397	Marionette	INFO	Marionette enabled
+1642643526932	Marionette	INFO	Stopped listening on port 40789
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS7wbQx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44567/devtools/browser/5832941d-83a8-4061-ac68-8ea4611b6ee7
+1642643528881	Marionette	INFO	Listening on port 33317
+1642643528996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
