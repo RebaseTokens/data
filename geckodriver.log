@@ -1066,3 +1066,23 @@ DevTools listening on ws://localhost:44965/devtools/browser/d5106b76-7bfb-4009-8
 1642645432548	Marionette	INFO	Listening on port 35545
 1642645432610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642645464462	Marionette	INFO	Stopped listening on port 35545
+1642645471307	geckodriver	INFO	Listening on 127.0.0.1:40949
+1642645471310	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38833" "-no-remote" "-profile" "/tmp/rust_mozprofile8OThEb"
+*** You are running in headless mode.
+1642645471585	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8OThEb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38833/devtools/browser/b446e694-4843-46e1-8390-d03dc9b588ec
+1642645472695	Marionette	INFO	Listening on port 34545
+1642645472741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645504062	Marionette	INFO	Stopped listening on port 34545
+1642645504528	geckodriver	INFO	Listening on 127.0.0.1:45509
+1642645505032	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49131" "-no-remote" "-profile" "/tmp/rust_mozprofileNR2hkS"
+*** You are running in headless mode.
+1642645505311	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNR2hkS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49131/devtools/browser/03b25670-315b-44fc-8ff4-851c5bd06d96
+1642645506382	Marionette	INFO	Listening on port 37995
+1642645506450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642645537737	Marionette	INFO	Stopped listening on port 37995
