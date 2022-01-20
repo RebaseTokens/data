@@ -347,3 +347,27 @@ DevTools listening on ws://localhost:42707/devtools/browser/834ffc25-dc55-4914-8
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642643766263	geckodriver	INFO	Listening on 127.0.0.1:37599
+1642643766266	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47763" "-no-remote" "-profile" "/tmp/rust_mozprofileEmfsmx"
+*** You are running in headless mode.
+1642643766537	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEmfsmx/search.json.mozlz4", (void 0)))
+1642643767398	geckodriver	INFO	Listening on 127.0.0.1:59793
+DevTools listening on ws://localhost:47763/devtools/browser/0b5d29ed-c13c-4c19-817a-bc771b428a0e
+1642643767603	Marionette	INFO	Listening on port 45143
+1642643767683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642643767901	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37353" "-no-remote" "-profile" "/tmp/rust_mozprofileBNKEB2"
+*** You are running in headless mode.
+1642643768190	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBNKEB2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37353/devtools/browser/4126056e-0516-4ff5-badd-6ff775f6a2ae
+1642643769694	Marionette	INFO	Listening on port 45573
+1642643769725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 166294, MediaDecoderStateMachine #1] WARNING: 7f0161ed3a70 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 166294, MediaDecoderStateMachine #1] WARNING: Decoder=7f015f759200 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643799217	Marionette	INFO	Stopped listening on port 45143
+1642643799686	Marionette	INFO	Stopped listening on port 45577
+[Child 166294, MediaDecoderStateMachine #1] WARNING: 7f0161ed4970 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 166294, MediaDecoderStateMachine #1] WARNING: Decoder=7f015f759200 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
