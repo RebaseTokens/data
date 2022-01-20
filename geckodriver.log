@@ -325,3 +325,27 @@ DevTools listening on ws://localhost:38123/devtools/browser/7f2b92eb-2be1-4067-9
 1642642521873	Marionette	INFO	Listening on port 45361
 1642642521949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642642527231	Marionette	INFO	Stopped listening on port 41565
+1642642533926	geckodriver	INFO	Listening on 127.0.0.1:57873
+1642642534429	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59987" "-no-remote" "-profile" "/tmp/rust_mozprofiletL8hJq"
+*** You are running in headless mode.
+1642642534709	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletL8hJq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59987/devtools/browser/fc655c1e-edd8-4ecf-b1ba-05cf29ecd141
+1642642535784	Marionette	INFO	Listening on port 45465
+1642642535847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642554050	Marionette	INFO	Stopped listening on port 45361
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642642554515	geckodriver	INFO	Listening on 127.0.0.1:37327
+1642642555021	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "47715" "-no-remote" "-profile" "/tmp/rust_mozprofileVv50CM"
+1642642555593	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVv50CM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47715/devtools/browser/fd3f0607-acdf-42cf-a87d-af104c2293f2
+1642642558230	Marionette	INFO	Listening on port 34985
+1642642558343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642568786	Marionette	INFO	Stopped listening on port 45465
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
