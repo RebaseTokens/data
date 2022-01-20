@@ -178,3 +178,15 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642643458917	geckodriver	INFO	Listening on 127.0.0.1:37685
+1642643459420	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38471" "-no-remote" "-profile" "/tmp/rust_mozprofilemsbBO5"
+*** You are running in headless mode.
+1642643459702	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemsbBO5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38471/devtools/browser/80b8c588-6111-4934-8dcd-186f43045647
+1642643460798	Marionette	INFO	Listening on port 37981
+1642643460838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://app.metareserve.finance/#/dashboard, line 2: ChunkLoadError: Loading chunk 2 failed.
+(error: https://app.metareserve.finance/static/js/en-messages.afc061bf.chunk.js)
+1642643482756	Marionette	INFO	Stopped listening on port 46667
