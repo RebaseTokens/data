@@ -190,3 +190,57 @@ DevTools listening on ws://localhost:57615/devtools/browser/68a44b95-3dac-49a5-8
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile0JFWyQ/protections.sqlite
+1642642337042	geckodriver	INFO	Listening on 127.0.0.1:34499
+1642642337546	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51921" "-no-remote" "-profile" "/tmp/rust_mozprofilegUkDHA"
+*** You are running in headless mode.
+1642642337821	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegUkDHA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51921/devtools/browser/90996080-5641-4a61-8ce3-bd7c7097a027
+1642642338932	Marionette	INFO	Listening on port 41075
+1642642338964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://app.metareserve.finance/#/dashboard, line 2: ChunkLoadError: Loading chunk 2 failed.
+(error: https://app.metareserve.finance/static/js/en-messages.afc061bf.chunk.js)
+1642642358964	Marionette	INFO	Stopped listening on port 37249
+1642642359431	geckodriver	INFO	Listening on 127.0.0.1:56957
+1642642359935	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "60919" "-no-remote" "-profile" "/tmp/rust_mozprofilenVvahm"
+1642642360456	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenVvahm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60919/devtools/browser/49b5132c-590c-4a07-b007-d04696f3b317
+1642642362849	Marionette	INFO	Listening on port 37119
+1642642363005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642642370416	Marionette	INFO	Stopped listening on port 41075
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642642370985	geckodriver	INFO	Listening on 127.0.0.1:54749
+1642642371488	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60261" "-no-remote" "-profile" "/tmp/rust_mozprofilePxXaK9"
+*** You are running in headless mode.
+1642642371848	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePxXaK9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60261/devtools/browser/2bc5a117-7ca7-463a-95b0-b7cc7bdf2e77
+1642642373471	Marionette	INFO	Listening on port 40295
+1642642373511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://app.metareserve.finance/#/stake, line 2: ChunkLoadError: Loading chunk 2 failed.
+(error: https://app.metareserve.finance/static/js/en-messages.afc061bf.chunk.js)
+1642642394154	Marionette	INFO	Stopped listening on port 37119
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilenVvahm/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
