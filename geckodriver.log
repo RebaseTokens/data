@@ -459,3 +459,81 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.js
 [Child 167877, MediaDecoderStateMachine #1] WARNING: Decoder=7f01de797f00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
 1642643887451	Marionette	INFO	Stopped listening on port 42341
 1642643887926	geckodriver	INFO	Listening on 127.0.0.1:40549
+1642643888429	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "48557" "-no-remote" "-profile" "/tmp/rust_mozprofileikV9aO"
+1642643888941	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileikV9aO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48557/devtools/browser/1e89a553-6076-4197-84aa-04e1e1682f4c
+1642643891466	Marionette	INFO	Listening on port 36717
+1642643891554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 168432, MediaDecoderStateMachine #1] WARNING: 7fe606ce0c50 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 168432, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6062ad000 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+[Child 168432, MediaDecoderStateMachine #1] WARNING: 7fe604be55b0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 168432, MediaDecoderStateMachine #1] WARNING: Decoder=7fe604bedd00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643896386	geckodriver	INFO	Listening on 127.0.0.1:43177
+1642643896890	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59583" "-no-remote" "-profile" "/tmp/rust_mozprofileRobDCw"
+*** You are running in headless mode.
+1642643897183	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRobDCw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59583/devtools/browser/cf7b33c4-fed7-460b-b83a-a14ff6bfa3e5
+1642643898765	Marionette	INFO	Listening on port 36067
+1642643898814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[Child 168432, MediaDecoderStateMachine #1] WARNING: 7fe604be4f20 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
+[Child 168432, MediaDecoderStateMachine #1] WARNING: Decoder=7fe604bedd00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
+1642643923739	Marionette	INFO	Stopped listening on port 36717
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0007,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
