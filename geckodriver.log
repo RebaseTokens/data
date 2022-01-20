@@ -1276,3 +1276,29 @@ JavaScript error: https://templar.finance/static/js/2.b6fd4c7b.chunk.js, line 2:
 [Child 194973, MediaDecoderStateMachine #1] WARNING: 7fae43f571f0 OpenCubeb() failed to init cubeb: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/AudioStream.cpp:324
 [Child 194973, MediaDecoderStateMachine #1] WARNING: Decoder=7fae4567bf00 [OnMediaSinkAudioError]: file /build/firefox-oDiU8w/firefox-96.0+build2/dom/media/MediaDecoderStateMachine.cpp:4017
 1642646117817	Marionette	INFO	Stopped listening on port 39299
+1642646124464	geckodriver	INFO	Listening on 127.0.0.1:45689
+1642646124467	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50443" "-no-remote" "-profile" "/tmp/rust_mozprofileIRu3e9"
+*** You are running in headless mode.
+1642646124731	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIRu3e9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50443/devtools/browser/e559993a-ace6-45fd-9a02-83447ae484b1
+1642646125826	Marionette	INFO	Listening on port 44259
+1642646125886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642646159975	geckodriver	INFO	Listening on 127.0.0.1:50305
+1642646159978	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58475" "-no-remote" "-profile" "/tmp/rust_mozprofileOgHAtU"
+*** You are running in headless mode.
+1642646160253	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOgHAtU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58475/devtools/browser/868f74cb-5fe1-46c0-b871-5aedb5ea9247
+1642646161335	Marionette	INFO	Listening on port 46225
+1642646161396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642646197146	Marionette	INFO	Stopped listening on port 46225
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642646197618	Marionette	INFO	Stopped listening on port 44259
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
