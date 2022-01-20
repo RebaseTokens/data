@@ -1,5 +1,6 @@
 #!/bin/bash
 
-git add .
+git add -- . :!./daomain.py
 git commit -m "Update"
 git push --all
+
