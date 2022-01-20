@@ -1329,3 +1329,13 @@ DevTools listening on ws://localhost:56155/devtools/browser/8754cd2d-24a5-493a-b
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1642646338958	Marionette	INFO	Stopped listening on port 36853
+1642646345968	geckodriver	INFO	Listening on 127.0.0.1:41699
+1642646345971	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35407" "-no-remote" "-profile" "/tmp/rust_mozprofiletkOXQ7"
+*** You are running in headless mode.
+1642646346268	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletkOXQ7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35407/devtools/browser/45c7cdd0-29cf-45f1-bef0-bf77d3a8da6b
+1642646347368	Marionette	INFO	Listening on port 36219
+1642646347393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642646378400	Marionette	INFO	Stopped listening on port 36219
