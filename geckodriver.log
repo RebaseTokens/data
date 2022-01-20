@@ -789,3 +789,28 @@ DevTools listening on ws://localhost:52171/devtools/browser/4952a821-65fc-487c-a
 1642644574968	Marionette	INFO	Listening on port 34449
 1642644575016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642644605901	Marionette	INFO	Stopped listening on port 34449
+1642644612938	geckodriver	INFO	Listening on 127.0.0.1:52217
+1642644613441	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41713" "-no-remote" "-profile" "/tmp/rust_mozprofile35rDyM"
+*** You are running in headless mode.
+1642644613722	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile35rDyM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41713/devtools/browser/58ef739f-e600-4a4c-a29a-ae3783860a92
+1642644614938	Marionette	INFO	Listening on port 38611
+1642644614965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642644645769	Marionette	INFO	Stopped listening on port 38611
+1642644646239	geckodriver	INFO	Listening on 127.0.0.1:43353
+1642644646742	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54567" "-no-remote" "-profile" "/tmp/rust_mozprofile3Uj0wU"
+*** You are running in headless mode.
+1642644647017	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3Uj0wU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54567/devtools/browser/4c46c907-8ad6-425f-a633-fddf9dd2837e
+1642644648123	Marionette	INFO	Listening on port 41455
+1642644648161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1642644678861	Marionette	INFO	Stopped listening on port 41455
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
