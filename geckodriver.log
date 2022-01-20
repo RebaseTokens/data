@@ -679,3 +679,29 @@ DevTools listening on ws://localhost:51461/devtools/browser/1251efec-ec95-46e4-b
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1642644227274	Marionette	INFO	Stopped listening on port 46635
+1642644252662	Marionette	INFO	Stopped listening on port 40973
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileFgoW0Y/protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642644259063	geckodriver	INFO	Listening on 127.0.0.1:46231
+1642644259566	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46271" "-no-remote" "-profile" "/tmp/rust_mozprofileqlCGLP"
+*** You are running in headless mode.
+1642644259863	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqlCGLP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46271/devtools/browser/f6b00554-df98-4f8b-89bf-3e951fe303c6
+1642644260941	Marionette	INFO	Listening on port 40739
+1642644260990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
