@@ -1,9 +1,9 @@
 {
-  "mcap": "$NaN",
-  "price": "$0",
-  "tvl": "$NaN",
-  "apy": "NaN%",
-  "treasury": "$NaN",
-  "backing": "$NaN",
-  "runway": "NaN Days"
+  "mcap": "$3,396,700",
+  "price": "$9.23",
+  "tvl": "$2,467,383",
+  "apy": "0%",
+  "treasury": "$5,421,607",
+  "backing": "$16",
+  "runway": "Infinity Days"
 }
