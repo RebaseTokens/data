@@ -152,3 +152,18 @@ DevTools listening on ws://localhost:52059/devtools/browser/65ab6b72-5949-479c-b
 console.error: PushServiceWebSocket: 
   _beginWSSetup: Not in shutdown state! Current state
   3
+1643568372261	geckodriver	INFO	Listening on 127.0.0.1:40605
+1643568372270	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48453" "-no-remote" "-profile" "/tmp/rust_mozprofileXJDN1D"
+*** You are running in headless mode.
+1643568372905	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXJDN1D/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48453/devtools/browser/55d13bf3-866e-4659-a12f-e98712f92b3b
+1643568376525	Marionette	INFO	Listening on port 39163
+1643568376611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1643568408822	Marionette	INFO	Stopped listening on port 39163
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
