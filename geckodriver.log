@@ -3023,3 +3023,13 @@ DevTools listening on ws://localhost:36733/devtools/browser/8f7647bb-a576-4e88-8
 console.error: PushServiceWebSocket: 
   _beginWSSetup: Not in shutdown state! Current state
   2
+1643901358177	geckodriver	INFO	Listening on 127.0.0.1:52401
+1643901358683	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45417" "-no-remote" "-profile" "/tmp/rust_mozprofileaDWz83"
+*** You are running in headless mode.
+1643901359216	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaDWz83/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45417/devtools/browser/d011204f-304c-4e69-b8f2-d70ec9000b82
+1643901362007	Marionette	INFO	Listening on port 46521
+1643901362084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643901394120	Marionette	INFO	Stopped listening on port 46521
