@@ -4740,3 +4740,16 @@ DevTools listening on ws://localhost:42459/devtools/browser/621f9303-d289-4d13-9
 1644093062594	Marionette	INFO	Listening on port 41571
 1644093062681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644093094371	Marionette	INFO	Stopped listening on port 41571
+1644094340366	geckodriver	INFO	Listening on 127.0.0.1:47817
+1644094340371	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45061" "-no-remote" "-profile" "/tmp/rust_mozprofilenCLFhh"
+*** You are running in headless mode.
+1644094340931	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenCLFhh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45061/devtools/browser/9d806186-f6ee-470a-94e5-e0e64f56a3c8
+1644094344169	Marionette	INFO	Listening on port 45639
+1644094344209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644094375849	Marionette	INFO	Stopped listening on port 45639
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
