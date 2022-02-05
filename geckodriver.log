@@ -4464,3 +4464,13 @@ DevTools listening on ws://localhost:49395/devtools/browser/fb2fd612-bc7a-4533-9
 1644059958004	Marionette	INFO	Listening on port 45735
 1644059958096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644059989719	Marionette	INFO	Stopped listening on port 45735
+1644061257823	geckodriver	INFO	Listening on 127.0.0.1:60193
+1644061257831	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58571" "-no-remote" "-profile" "/tmp/rust_mozprofileB9dlTz"
+*** You are running in headless mode.
+1644061258451	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB9dlTz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58571/devtools/browser/9662a697-a899-4d3f-811c-a23e12a30678
+1644061261644	Marionette	INFO	Listening on port 38413
+1644061261717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644061293523	Marionette	INFO	Stopped listening on port 38413
