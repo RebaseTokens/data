@@ -5309,3 +5309,13 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1644157552221	geckodriver	INFO	Listening on 127.0.0.1:47397
+1644157552237	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51797" "-no-remote" "-profile" "/tmp/rust_mozprofileDlPR9a"
+*** You are running in headless mode.
+1644157552774	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDlPR9a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51797/devtools/browser/bfd20618-024e-4780-b28e-d279470c44da
+1644157555838	Marionette	INFO	Listening on port 43531
+1644157555985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644157587790	Marionette	INFO	Stopped listening on port 43531
