@@ -6810,3 +6810,13 @@ DevTools listening on ws://localhost:39899/devtools/browser/97e18850-cd55-4023-a
 1644358945959	Marionette	INFO	Listening on port 34833
 1644358946017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644358977393	Marionette	INFO	Stopped listening on port 34833
+1644360271079	geckodriver	INFO	Listening on 127.0.0.1:55217
+1644360271082	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49903" "-no-remote" "-profile" "/tmp/rust_mozprofileK4HLzN"
+1644360272035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK4HLzN/search.json.mozlz4", (void 0)))
+console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 503
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+DevTools listening on ws://localhost:49903/devtools/browser/d00c9a94-dc22-4ef1-8a50-f27f9fe3e7dd
+1644360276677	Marionette	INFO	Listening on port 38113
+1644360276845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644360308386	Marionette	INFO	Stopped listening on port 38113
