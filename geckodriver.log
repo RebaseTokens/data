@@ -7299,3 +7299,14 @@ DevTools listening on ws://localhost:52769/devtools/browser/db4c040c-b940-450a-9
 1644427659396	Marionette	INFO	Listening on port 37893
 1644427659444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644427690897	Marionette	INFO	Stopped listening on port 37893
+1644428934262	geckodriver	INFO	Listening on 127.0.0.1:44857
+1644428934768	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "54371" "-no-remote" "-profile" "/tmp/rust_mozprofilenX28b4"
+1644428936019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenX28b4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54371/devtools/browser/811e4984-6ed5-4716-bc7a-22439e07d302
+1644428940012	Marionette	INFO	Listening on port 40401
+1644428940136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644428971987	Marionette	INFO	Stopped listening on port 40401
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
