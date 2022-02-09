@@ -1,10 +1,9 @@
 {
-  "mcap": "$1,302,607",
-  "price": "$3.13",
-  "tvl": "$919,927",
+  "mcap": "$1,324,987",
+  "price": "$3.18",
+  "tvl": "$931,099",
   "apy": "0%",
-  "treasury": "$68",
-  "backing": "$0",
-  "runway": "-Infinity Days",
-  "lastupdate": "08/02/2022 23:20:34"
+  "treasury": "$2,999,613",
+  "runway": "Infinity Days",
+  "lastupdate": "09/02/2022 17:40:35"
 }
