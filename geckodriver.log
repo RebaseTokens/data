@@ -9891,3 +9891,14 @@ DevTools listening on ws://localhost:48661/devtools/browser/d7018b0b-c28b-442b-a
 1644803271274	Marionette	INFO	Listening on port 38431
 1644803271356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://app.galaxygoggle.money/static/js/2.f51bed60.chunk.js, line 2: Error: Network Error
+1644804517309	geckodriver	INFO	Listening on 127.0.0.1:56133
+1644804517314	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "53983" "-no-remote" "-profile" "/tmp/rust_mozprofileT40Bym"
+1644804518110	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT40Bym/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53983/devtools/browser/b0a39c1e-49a6-4044-ba69-83cbfc60bda2
+1644804520945	Marionette	INFO	Listening on port 46251
+1644804521049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644804552255	Marionette	INFO	Stopped listening on port 46251
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
