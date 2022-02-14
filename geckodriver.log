@@ -9902,3 +9902,11 @@ DevTools listening on ws://localhost:53983/devtools/browser/b0a39c1e-49a6-4044-b
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1644805785948	geckodriver	INFO	Listening on 127.0.0.1:34331
+1644805785952	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44123" "-no-remote" "-profile" "/tmp/rust_mozprofilepAq0Z9"
+1644805786721	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepAq0Z9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44123/devtools/browser/605a77f2-3f5f-44c3-a030-06f604c2ba6a
+1644805789597	Marionette	INFO	Listening on port 41219
+1644805789694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644805820930	Marionette	INFO	Stopped listening on port 41219
