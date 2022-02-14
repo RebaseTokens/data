@@ -9883,3 +9883,11 @@ DevTools listening on ws://localhost:45069/devtools/browser/54e943ca-0a10-4e78-a
 1644802054170	Marionette	INFO	Listening on port 40543
 1644802054221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1644802085503	Marionette	INFO	Stopped listening on port 40543
+1644803267011	geckodriver	INFO	Listening on 127.0.0.1:50409
+1644803267518	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "48661" "-no-remote" "-profile" "/tmp/rust_mozprofilesg7eT9"
+1644803268368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesg7eT9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48661/devtools/browser/d7018b0b-c28b-442b-a983-066cc86327b8
+1644803271274	Marionette	INFO	Listening on port 38431
+1644803271356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://app.galaxygoggle.money/static/js/2.f51bed60.chunk.js, line 2: Error: Network Error
