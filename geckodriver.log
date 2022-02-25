@@ -4119,3 +4119,14 @@ DevTools listening on ws://localhost:41135/devtools/browser/42b2b097-6b9e-419b-8
 
 ###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PRemoteWorkerService::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
+1645754359080	geckodriver	INFO	Listening on 127.0.0.1:38531
+1645754359585	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52539" "-no-remote" "-profile" "/tmp/rust_mozprofileuBsAEu"
+1645754360687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuBsAEu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52539/devtools/browser/bcf4bb95-3beb-4f77-9c22-1217a0864105
+1645754364286	Marionette	INFO	Listening on port 35683
+1645754364401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645754396011	Marionette	INFO	Stopped listening on port 35683
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
