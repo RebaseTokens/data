@@ -7669,3 +7669,11 @@ DevTools listening on ws://localhost:45557/devtools/browser/62b911bb-ef6a-4a44-b
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1646240257396	geckodriver	INFO	Listening on 127.0.0.1:44261
+1646240257404	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "57747" "-no-remote" "-profile" "/tmp/rust_mozprofileBKKWN0"
+1646240258459	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBKKWN0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57747/devtools/browser/162858b6-69f5-4fff-9817-9d588c1d2316
+1646240262311	Marionette	INFO	Listening on port 36611
+1646240262496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646240294364	Marionette	INFO	Stopped listening on port 36611
