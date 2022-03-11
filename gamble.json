@@ -1,10 +1,10 @@
 {
-  "mcap": "$1,524,224",
-  "price": "$6.31",
-  "tvl": "$1,364,225",
-  "apy": "9,665.4%",
-  "treasury": "$365,292",
-  "backing": "$3",
-  "runway": "124.1 Days",
-  "lastupdate": "11/03/2022 00:46:06"
+  "mcap": "$NaN",
+  "price": "$0",
+  "tvl": "$NaN",
+  "apy": "NaN%",
+  "treasury": "$NaN",
+  "backing": "$NaN",
+  "runway": "NaN Days",
+  "lastupdate": "11/03/2022 01:03:47"
 }
