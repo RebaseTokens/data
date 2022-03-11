@@ -13549,3 +13549,11 @@ DevTools listening on ws://localhost:40905/devtools/browser/d9713358-1107-45a9-8
 1646968784303	Marionette	INFO	Listening on port 40963
 1646968784341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1646968815759	Marionette	INFO	Stopped listening on port 40963
+1646969860493	geckodriver	INFO	Listening on 127.0.0.1:44003
+1646969860999	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "56289" "-no-remote" "-profile" "/tmp/rust_mozprofileb5d198"
+1646969861756	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb5d198/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56289/devtools/browser/705554fa-0239-4df4-9d42-b5f121cc434f
+1646969864758	Marionette	INFO	Listening on port 41817
+1646969864846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646969896179	Marionette	INFO	Stopped listening on port 41817
