@@ -14727,3 +14727,11 @@ DevTools listening on ws://localhost:46637/devtools/browser/995a5522-d3a3-4711-8
 1647144399800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1647144430992	Marionette	INFO	Stopped listening on port 42963
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1647145992126	geckodriver	INFO	Listening on 127.0.0.1:47069
+1647145992633	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "33091" "-no-remote" "-profile" "/tmp/rust_mozprofileHyfSlh"
+1647146018464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHyfSlh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33091/devtools/browser/0a70e198-8538-44f6-8a5d-3b373c426a61
+1647146021358	Marionette	INFO	Listening on port 41273
+1647146021452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647146052791	Marionette	INFO	Stopped listening on port 41273
