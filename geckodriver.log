@@ -15343,3 +15343,12 @@ DevTools listening on ws://localhost:40245/devtools/browser/ba59436b-48c3-433c-9
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1647260931803	Marionette	INFO	Stopped listening on port 46499
+1647262558458	geckodriver	INFO	Listening on 127.0.0.1:39647
+1647262558964	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52533" "-no-remote" "-profile" "/tmp/rust_mozprofileclInCV"
+1647262584821	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileclInCV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52533/devtools/browser/acedd0b4-00f0-4a2d-9776-3476478b0c67
+1647262588107	Marionette	INFO	Listening on port 38069
+1647262588170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647262619429	Marionette	INFO	Stopped listening on port 38069
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
