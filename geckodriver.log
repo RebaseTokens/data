@@ -16377,3 +16377,16 @@ DevTools listening on ws://localhost:47349/devtools/browser/57285bd2-64e5-4226-b
 1647455363962	Marionette	INFO	Listening on port 39523
 1647455364046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1647455395430	Marionette	INFO	Stopped listening on port 39523
+1647457060544	geckodriver	INFO	Listening on 127.0.0.1:46943
+1647457060553	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "51939" "-no-remote" "-profile" "/tmp/rust_mozprofilefZ7oFa"
+1647457086511	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefZ7oFa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51939/devtools/browser/ce1348ef-9bed-4382-9603-9f75d8347176
+1647457088607	Marionette	INFO	Listening on port 41571
+1647457088661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1647457120494	Marionette	INFO	Stopped listening on port 41571
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
