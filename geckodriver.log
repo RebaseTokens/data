@@ -20924,3 +20924,14 @@ DevTools listening on ws://localhost:56931/devtools/browser/e46b1394-7153-4ab3-9
 1648302537468	Marionette	INFO	Listening on port 35765
 1648302537540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1648302568776	Marionette	INFO	Stopped listening on port 35765
+1648304149774	geckodriver	INFO	Listening on 127.0.0.1:59707
+1648304150281	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "54439" "-no-remote" "-profile" "/tmp/rust_mozprofilesM1KnJ"
+1648304176139	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesM1KnJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54439/devtools/browser/c64d4f5d-b648-4274-8207-2973d155c9d5
+1648304178155	Marionette	INFO	Listening on port 35351
+1648304178190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648304209385	Marionette	INFO	Stopped listening on port 35351
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
