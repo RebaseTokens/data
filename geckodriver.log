@@ -21433,3 +21433,14 @@ DevTools listening on ws://localhost:48515/devtools/browser/2bc06aec-5e46-4092-b
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1648396838577	Marionette	INFO	Stopped listening on port 45967
+1648398427317	geckodriver	INFO	Listening on 127.0.0.1:45703
+1648398427322	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "60439" "-no-remote" "-profile" "/tmp/rust_mozprofileRr0Sdo"
+1648398453141	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRr0Sdo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60439/devtools/browser/7393e335-a525-4e7c-82a0-5972e14fced6
+1648398455254	Marionette	INFO	Listening on port 45739
+1648398455332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648398486585	Marionette	INFO	Stopped listening on port 45739
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
